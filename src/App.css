@@ -1,0 +1,90 @@
+.App{
+  background-image: linear-gradient(to right, hsl(0, 3%, 56%), hsl(0, 4%, 31%));
+}
+
+.loadingGif{
+  display: "none";
+  flex: 1;
+  alignItems: 'center';
+  justifyContent: 'center';
+}
+
+.connected-container input[type='text'] {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 10px;
+  margin: 50px auto;
+  margin-left: -35px;
+}
+
+.connected-container{
+  margin-left: 100px;
+}
+
+
+
+.cta-button {
+  height: 65px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.submit-gif-button {
+  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+
+.footer-text-rune{
+color: white;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: #FFD700;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
